@@ -1,2 +1,2 @@
 # myfirstproject-desktopasst-
-bahut kammiya hai bhai
+trying to improvee it as learning new things and technolgies 
