@@ -59,14 +59,14 @@ def sendEmail(to,content):
     server = smtplib.SMTP('smtp.gmail.com',587)#587 is the port
     server.ehlo()
     server.start.ls()
-    server.login('asc15.lko@gmail.com','anurag@100480')
-    server.sendmail('asc15.lko@gmail.com',to,content)
+    server.login('your gmail','your gmail password')
+    server.sendmail('receiver gmail',to,content)
     server.close()
     
 
 def GPT(query):
-     openai.api_key="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"
-     model_engine="text-davinci-003"
+     openai.api_key="open ai api key"
+     model_engine="text-davinci-003"#engine used is davinci may at your time it may be discarded
      prompt=query
 
      completion = openai.Completion.create(
@@ -124,7 +124,7 @@ if __name__ == "__main__":
            #break
        
        elif 'open code' in query :
-           codePath = "C:\\Users\\Anmol\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+           codePath = "set c drive path it is specifically for visual code studio it can be designed for others also"
            os.startfile(codePath)
            #break
        
